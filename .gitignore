@@ -1,0 +1,43 @@
+# Virtual Environment
+venv/
+
+# Conda
+*.conda
+envs/
+
+# Secret Keys — never commit this
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Data folders (PDFs + vector indexes — too large for GitHub)
+data/
+*.pdf
+
+# FAISS index files
+*.bin
+*.pkl
+faiss_index/
+
+# ChromaDB files
+chroma_db/
+.chroma/
+
+# VS Code settings
+.vscode/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files (Windows)
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
