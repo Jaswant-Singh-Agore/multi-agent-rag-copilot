@@ -128,6 +128,22 @@ Measures faithfulness and answer relevancy using RAGAS. Falls back to word-overl
 
 ---
 
+## Results
+
+Evaluated on a 13-question test set using word-overlap scoring (manual fallback):
+
+| Metric | Score |
+|--------|-------|
+| Faithfulness | 0.63 |
+| Answer Relevancy | 0.76 |
+
+Note: Word-overlap scoring underestimates semantic similarity — answers 
+using equivalent terms score lower despite being correct. 
+Real performance is likely higher.
+
+
+
+
 ## License
 
 MIT
