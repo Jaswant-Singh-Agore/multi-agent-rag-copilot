@@ -69,7 +69,7 @@ multi_agent_rag/
 
 ### 1. Clone and install
 ```bash
-git clone https://github.com/YOUR_USERNAME/multi-agent-rag.git
+git clone https://github.com/Jaswant-Singh-Agore/multi-agent-rag.git
 cd multi-agent-rag
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
