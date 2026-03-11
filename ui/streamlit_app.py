@@ -2,11 +2,13 @@
 Streamlit chat interface for the Multi-Agent RAG Copilot.
 """
 
+import os
+
 import requests
 import streamlit as st
 
 
-API_BASE = "http://localhost:8000"
+API_BASE = os.getenv("API_BASE", "http://localhost:8000")
 
 st.set_page_config(
     page_title="Multi-Agent RAG Copilot",
